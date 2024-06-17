@@ -1,0 +1,328 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF9E6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFD700;
+    padding: 1em;
+    color: #FFF;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+header .user-profile {
+    display: flex;
+    align-items: center;
+}
+
+header .user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 0.5em;
+}
+
+header .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+header .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFF;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+header .dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+header .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+header .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header .dropbtn {
+    background-color: #FFD700;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+header .dropbtn:hover {
+    background-color: #FFC107;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 140px);
+}
+
+.login-container {
+    background-color: #FFF3B0;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h1 {
+    margin-bottom: 1em;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.login-container form input, .login-container form button {
+    padding: 0.75em;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.login-container form button {
+    background-color: #FFD700;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+.login-container form button:hover {
+    background-color: #FFC107;
+}
+
+footer {
+    background-color: #FFD700;
+    color: #FFF;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 0.5em;
+}
+
+footer nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('caminho/para/sua/imagem-de-fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 221, 87, 0.9);
+    color: white;
+    padding: 10px 20px;
+}
+
+header .xk19b {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header .m23z4 {
+    font-size: 1em;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.k9lm0 {
+    margin-bottom: 20px;
+}
+
+.n7y8w {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.p5q2r {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ffdd57;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+}
+
+.p5q2r h2 {
+    margin-bottom: 10px;
+}
+
+.q1o2p {
+    font-weight: bold;
+}
+
+.q1o2p.on {
+    color: green;
+}
+
+.q1o2p.off {
+    color: red;
+}
+
+.p5q2r button {
+    background-color: #ffdd57;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.p5q2r button:hover {
+    background-color: #fcbf1e;
+}
+
+.u6t7s {
+    margin-bottom: 20px;
+}
+
+.u6t7s button {
+    background-color: #ffdd57;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.u6t7s button:hover {
+    background-color: #fcbf1e;
+}
+
+footer {
+    background-color: rgba(255, 221, 87, 0.9);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ffdd57;
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ffdd57;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #fcbf1e;
+}

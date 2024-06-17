@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo de Tomadas Inteligentes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="xk19b">LightMonitor</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Dispositivos</a>
+            <a href="#">Histórico</a>
+            <a href="#">Configurações</a>
+            <a href="#">Ajuda</a>
+            <div class="m23z4">Meu Perfil</div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="k9lm0">
+            <h1>Bem-vindo!</h1>
+            <p>Resumo do Status:</p>
+        </section>
+
+        <section class="n7y8w">
+            <div class="p5q2r">
+                <h2>Tomada da Sala</h2>
+                <p>Status: <span class="q1o2p on">Ligado</span></p>
+                <button onclick="toggleStatus(this)">Desligar</button>
+                <p>Consumo: 150W</p>
+            </div>
+            <div class="p5q2r">
+                <h2>Tomada da Cozinha</h2>
+                <p>Status: <span class="q1o2p off">Desligado</span></p>
+                <button onclick="toggleStatus(this)">Ligar</button>
+                <p>Consumo: 0W</p>
+            </div>
+            <div class="p5q2r">
+                <h2>Tomada do Quarto</h2>
+                <p>Status: <span class="q1o2p on">Ligado</span></p>
+                <button onclick="toggleStatus(this)">Desligar</button>
+                <p>Consumo: 100W</p>
+            </div>
+        </section>
+
+        <section class="u6t7s">
+            <button>Ligar Todas</button>
+            <button>Desligar Todas</button>
+            <button onclick="location.href='adicionar.html'">Adicionar Nova Tomada</button>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos de Serviço</a>
+        <a href="#">Contato</a>
+        <p>© 2024 LightMonitor. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
